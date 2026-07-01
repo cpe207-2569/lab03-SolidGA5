@@ -1,9 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>My Portfolio</title>
   </head>
-  <body></body>
+  <body class="bg">
+    <div
+      class="box-content bg-neutral-800 text-white lg:p-8 text-center shadow-xl/50 lg:text-[25px] text-[15px] pt-4 pb-3"
+    >
+      <a class="p-6" href="index.html">Homepage</a>
+      <a class="p-6" href="Favorites.html">Favorites</a>
+      <a class="p-6" href="Gallary.html">Gallery</a>
+    </div>
+    <div class="p-9 flex flex-col items-center">
+      <div
+        class="lg:w-1/2 flex flex-row border-5 rounded-br-lg p-5 shadow-[10px_10px_grey]"
+      >
+        <img
+          class="box-content lg:w-56 w-32 object-contain shadow-[-5px_5px_grey] m-5"
+          src="image/me.jpg"
+          alt=""
+        />
+        <div class="">
+          <h1 class="lg:text-[40px] text-[18px]">Phuphing Chompubang</h1>
+          <p class="lg:text-[24px] text-[12px]">
+            ผมนายภูพิงค์ ชมภูบาง เป็นนักศึกษาที่มหาวิทยาลัยเชียงใหม่ ในชั้นปีที่
+            2 คณะวิศวกรรมศาสตร์ สาขา วิศวกรคอมพิวเตอร์
+          </p>
+        </div>
+      </div>
+      <div class="p-6 text-center font-bold text-[50px]">Skill</div>
+      <div class="flex flex-col items-end lg:flex-row justify-center">
+        <div class="w-3/10 border-5 rounded-md box-content size-50">
+          <img
+            class="float-left h-full w-30 object-fill mr-5"
+            src="image/Programming.jpg"
+            alt=""
+          />
+          <div class="p-5">
+            <h1 class="text-[40px]">Progamming</h1>
+            <p>
+              ผมสามารถเขียนโปรแกรมได้หลายภาษา เช่น C++,Python,dart,Go
+              โดยยังมีการใช้ framework เช่น flutter
+            </p>
+          </div>
+        </div>
+        <div class="p-3"></div>
+        <div class="w-3/10 border-5 rounded-md box-content size-50">
+          <img
+            class="float-left h-full w-30 object-fill mr-5"
+            src="image/fullstackR.jpg"
+            alt=""
+          />
+          <div class="p-5">
+            <h1 class="text-[40px]">FullStack Developing</h1>
+            <p>
+              ผมเคยมีประสบการณ์ทำ Solo FullStack ใน mini project ของตนเอง โดยใช้
+              Flutter Framework กับ Go RESTAPI และ Postgres SQL
+            </p>
+          </div>
+        </div>
+        <div class="p-3"></div>
+        <div class="w-3/10 border-5 rounded-md box-content size-50">
+          <img
+            class="float-left h-full w-30 object-fill mr-5"
+            src="image/images.jpeg"
+            alt=""
+          />
+          <div class="p-5">
+            <h1 class="text-[40px]">Problemsolver</h1>
+            <p>
+              เนื่องจากผมเคยทำงานทั้งยากและต้องการการแก้ไขเรื่อยๆ
+              เลยทำให้มีความสามารถในการแก้ปัญหาโดยการแบ่งออกเป็นส่วนเล็กแล้วแก้ไป
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
